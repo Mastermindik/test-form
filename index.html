@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@17.0.8/build/css/intlTelInput.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="main">
+        <div class="sphere-small"></div>
+        <div class="sphere-big"></div>
+        <div class="aside" data-aos="fade-left">
+            <div class="html">
+                <img src="./assets/side/html.svg" alt="html">
+            </div>
+            <div class="css">
+                <img src="./assets/side/css.svg" alt="css">
+            </div>
+            <div class="js">
+                <img src="./assets/side/javascript.svg" alt="javascript">
+            </div>
+            <div class="sublime">
+                <img src="./assets/side/sublime.svg" alt="sublime-text">
+            </div>
+            <div class="vsc">
+                <img src="./assets/side/vsc.svg" alt="visual studio code">
+            </div>
+        </div>
+        <div class="bottom-signature">front-end developer</div>
+        <div class="container">
+            <header class="header" data-aos="fade-down">
+                <div class="company">
+                    <div class="logo">
+                        <img src="./assets/header/logo.svg" alt="logo">
+                    </div>
+                    <div class="name">
+                        <div class="name-up">
+                            <img src="./assets/header/POWERCODE.svg" alt="">
+                        </div>
+                        <div class="name-down">
+                            <img src="./assets/header/ACADEMY.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="date-time">
+                    <div class="date">
+                        28 декабря
+                    </div>
+                    <div class="time">
+                        3,5 часа
+                    </div>
+                </div>
+            </header>
+            <div class="wraper" data-aos="fade-right">
+                <div class="front-end">
+                    <div class="vebinar">Вебинар</div>
+                    <div class="title">
+                        <h1 class="name">front-end</h1>
+                        <p class="subname"><span>с нуля</span> легкий старт в IT профессии</p>
+                        <p class="description">Узнайте какими <b>навыками должен обладать фронтенд разработчик в 2022
+                                году</b> и как начать карьеру в востребованной профессии <b>с зарплатой </b><span>от 1
+                                000$</span></p>
+                    </div>
+                </div>
+                <div class="subtitle">
+                    <div class="teacher">
+                        <div class="photo">
+                            <img class="inside" src="./assets/main/inside-photo.svg" alt="">
+                            <img class="outside" src="./assets/main/outside-photo.svg" alt="">
+                        </div>
+                        <div class="about">
+                            <p class="name">Кирилл <span>КАСАТОНОВ</span></p>
+                            <p class="description">6 лет коммерческого опыта с такими компаниями как</p>
+                            <p>Mercedes-Benz                                 другими крупными корпорациями</p>
+                        </div>
+                    </div>
+                    <div class="bonus">
+                        <div class="photo">
+                            <img src="./assets/main/bonus.svg" alt="bonus">
+                        </div>
+                        <div class="about">
+                            <p class="name">Бонус за регистрацию</p>
+                            <p class="description">PDF-файл "5 преимуществ</p>
+                            <p class="description">профессии фронтенд разработчика"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form">
+                    <div class="form-name">
+                        <p>Запишитесь <span>бесплатно</span></p>
+                        <p>и получите подарок</p>
+                    </div>
+                    <form class="form-main" action="https://formsubmit.co/dykhnodanylo10@gmail.com" method="POST">
+                        <input class="name" type="text" id="name" placeholder="Ваше имя и фамилия" name="name" required>
+                        <input class="tel" type="tel" minlength="10" maxlength="10" id="phone-input" name="tel" placeholder="Ваш номер телефона" required>
+                        <input clas="email" type="email" id="email" name="email" placeholder="Ваш email" required>
+                        <button type="submit" id="btn">Записаться бесплатно</button>
+                    </form>
+                    <div class="privacy-policy">
+                        <p>Нажимая на кнопку я согашаюсь</p>
+                        <a href="#">с политикой конфидециальности</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/intlTelInput.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/libphonenumber-js@1.10.34/bundle/libphonenumber-min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
