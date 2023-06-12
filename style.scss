@@ -401,6 +401,12 @@ body {
                         width: 100%;
                         padding-left: 3rem;
                     }
+                    #not-valide {
+                        display: none;
+                        margin: 0;
+                        color: #FF3459;
+                        font-size: .7rem;
+                    }
 
                     button {
                         padding: 1rem 0;

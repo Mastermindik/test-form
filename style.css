@@ -334,6 +334,12 @@ body {
   width: 100%;
   padding-left: 3rem;
 }
+.main .container .wraper .form .form-main #not-valide {
+  display: none;
+  margin: 0;
+  color: #FF3459;
+  font-size: 0.7rem;
+}
 .main .container .wraper .form .form-main button {
   padding: 1rem 0;
   color: #ffffff;
