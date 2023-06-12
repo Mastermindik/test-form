@@ -10,3 +10,14 @@ let iti = window.intlTelInput(input, {
       .catch(() => callback("us"));
     },
 });
+
+input.addEventListener("blur", () => {
+  const valide = document.getElementById("not-valide");
+  const patern = /^\+\d{10}$/;
+  if (!patern.test(input.value)) {
+    valide.style.display = "block"
+  }
+  if (patern.test(input.value)) {
+    valide.style.display = "none"
+  }
+})
