@@ -15,9 +15,13 @@ input.addEventListener("blur", () => {
   const valide = document.getElementById("not-valide");
   const patern = /^\+\d{10}$/;
   if (!patern.test(input.value)) {
+    button.disabled = true;
     valide.style.display = "block"
   }
   if (patern.test(input.value)) {
     valide.style.display = "none"
+    button.disabled = false;
   }
 })
+
+const button = document.querySelector("#btn");
